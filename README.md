@@ -1,16 +1,90 @@
-# React + Vite
+# R&S Info Tech Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive corporate website developed for **R&S Info Tech** using React and Vite. The website presents company information, IT services, industries served, and contact details through a clean and professional interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Modern and responsive homepage
+- About Us section
+- IT Services showcase
+- Industries We Serve section
+- Contact page
+- Interactive navigation
+- Responsive layouts for different screen sizes
+- Modern icons and UI elements
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- JavaScript
+- HTML5
+- CSS3
+- React Router DOM
+- Lucide React
 
-## Expanding the Oxlint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+```text
+rs-infotech/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+└── vite.config.js
+```
+
+## ⚙️ Installation and Setup
+
+1. Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+```
+
+2. Open the project folder:
+
+```bash
+cd rs-infotech
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+5. Open the local URL shown in your terminal.
+
+## 📦 Build for Production
+
+```bash
+npm run build
+```
+
+The production-ready files will be generated inside the `dist` folder.
+
+## 👨‍💻 Project Information
+
+**Project Name:** R&S Info Tech Website
+
+**Project Type:** Corporate Business Website
+
+**Frontend:** React.js
+
+**Build Tool:** Vite
+
+---
+
+Developed as a web development project for R&S Info Tech.
